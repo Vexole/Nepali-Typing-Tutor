@@ -1,31 +1,48 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<title>Characters</title>
-		<meta charset="utf-8" />
-<link rel="stylesheet" href="style.css" />
-	    <style type="text/css">
-<!--
-.style1 {
-	font-size: 18px;
-	font-weight: bold;
-}
-.style2 {
-	font-size: 16px;
-	font-weight: bold;
-}
--->
-        </style>
-</head>
+	<head>
+		<title>Characters</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css"/>
+		<link rel="stylesheet" href="styling.css"/>
+	</head>
 <body>
-		<h3>	Various signs</h3>
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="help.php">Nepali Typing Tutor</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="keyboardlayout.php">Keyboard Layout <span class="sr-only">(current)</span></a></li>
+        <li><a href="unicode.php">Unicodes</a></li>
+        <li  class="active"><a href="characters.php">Characters</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+      <div class="container">
+<body>
+		<h3>Various signs</h3>
 		<ul>
 		  <li>	0901 	ँ 	DEVANAGARI SIGN CANDRABINDU   = anunasika → 0310 ̐ combining candrabindu </li>
 		  <li>	0902	 ं	 DEVANAGARI SIGN ANUSVARA
 		  = bindu
 		  <li>
 		  0903 ः DEVANAGARI SIGN VISARGA
-		  <h3 align="left">Independent vowels</h3>
+		  <h3>Independent vowels</h3>
 		  <li>
 		  0904 ऄ DEVANAGARI LETTER SHORT A<li>
 		  0905 अ DEVANAGARI LETTER A<li>
@@ -50,7 +67,7 @@
 		  <li>
 		  0913 ओ DEVANAGARI LETTER O<li>
 		  0914 औ DEVANAGARI LETTER AU
-		  <h3 align="left">
+		  <h3>
 		  Consonants		  </h3>
 		  <li>
 		  0915 क DEVANAGARI LETTER KA<li>
@@ -127,9 +144,9 @@
 		<li>0950 ॐ DEVANAGARI OM</li>
 	</ul>
 	
-	<p> To see full Unicode <a href="img.html">Click Here</a></p>
+	<p align="justify"> To see full Unicode <a href="img.php">Click Here</a></p>
   <h3><strong>Typing Non-existing Characters in Keyboard</strong></h3>
-  <p>There are some Nepali characters which don't have unicode. They are formed by combination of two or more characters. For these characters the unicodes of the combining characters are combined. Some of those non-existing characters in keyboard are:                        
+  <p align="justify">There are some Nepali characters which don't have unicode. They are formed by combination of two or more characters. For these characters the unicodes of the combining characters are combined. Some of those non-existing characters in keyboard are:                        
   <li class="style1">	क + ् + ष  =  क्ष   	</li>
   <li class="style1"> त + ् + र  =  त्र     	</li>
   <li class="style1">	ज + ् + य  =  ज्ञ		</li>
