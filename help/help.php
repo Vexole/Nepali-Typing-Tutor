@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nepali Typing Tutor Help</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css"/>
+		<link rel="stylesheet" href="styling.css"/>
+	</head>
+<body>
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="help.php">Nepali Typing Tutor</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="keyboardlayout.html">Keyboard Layout <span class="sr-only">(current)</span></a></li>
+        <li><a href="unicode.html">Unicodes</a></li>
+        <li><a href="characters.html">Characters</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+      <div class="container">
+        <h1>Typing</h1>
+        <p align="justify">Typing is the process of writing or inputting text by pressing keys on a typewriter, computer keyboard, cell phone, or calculator. It can be distinguished from other means of text input, such as handwriting and speech recognition. Text can be in the form of letters, numbers and other symbols.User interface features such as spell checker and autocomplete serve to facilitate and speed up typing and to prevent or correct errors the typist may make.</p>
+
+        <p><strong>Average Typing Speed: Why Is Is Important?</strong></p>
+		<p align="justify">	Any information on typing always comes down to the same question: What are your average typing speed and your accuracy? Why is it so important, and why does everyone want to know? Below are a few facts about typing and hopefully, a few hints as to why average typing speed is so important.</p>
+
+<p><strong>The Highest Typing Speed</strong></p>
+
+<p align="justify">The fastest typist in the world was a woman named Barbara Blackburn. In 2005, using a Simplified Dvorak keyboard, she was able to sustain 150 words per minute for 50 minutes, and 170 words per minute for shorter amounts of time. She was even clocked at a peak speed of 212 words per minute. This is well above what a professional typist, using a QWERTY keyboard, will usually manage. 50 to 80 words per minute is around the average for professional typists, and should be what most people strive for if they type for a living.</p>
+        
+        <p><strong>Average Typing Speed Statistics</strong></p>
+
+<p align="justify">As a general rule, girls like to type more than boys.
+This may be for a variety of reasons. Boys, stereotypically, spend more time on multi player online games that require quick typing speeds in order to communicate with your teammates. The divide is not as high as you would think though, as approximately 45% of boys prefer typing, to 55% of girls. This is a statistic related only to touch typing, as there are high number of female dominated jobs that require typing skills, though not all of them require a high word per minute speed.</p>
+<p align="justify">Average one minute typing speed, for most casual typists, is around 41 words per minute, with approximately 92% accuracy.
+To give this a bit of context, writing things by hand is usually around 31 words per minute for memorized material, or 22 words per minute for copied material. This is a good speed for someone who only types out the occasional email to family, or for someone whose livelihood doesn't depend on their speed at a keyboard. For anyone else, a regiment of practice should be employed to improve speed and accuracy.
+When it comes to any skill, the most important thing to remember is to practice.</p>
+<p align="justify">I'll say it again, just for retention: Practice. You wouldn't sit down at a piano and expect to be a concert level pianist, and you shouldn't sit down at a keyboard and expect to be a competition level typist either. Spend 30 minutes or so each day practicing. If you're just beginning, or working on switching over from hunt and peck style typing, then start from the beginning and work your way up. If you've already got some decent touch typing skills, then work on accuracy and speed drills. Keep track of your efforts over the course of a few weeks and you will see marked improvement.</p>
+<p align="justify">With touch typing, it is important to start young. Studies have shown that for people ages 18 and younger, it is two times easier to learn to touch type properly. It's no different than learning a new language and multiple studies have proven that children learn and retain new languages much easier than adults do. Teaching children how to properly touch type may be the most important skill you can give them to help them gain success in the work place.So why is your average typing speed and typing accuracy so important? The fact of the matter is that typing skills are the most important thing to learn, at any age, to make you a more coveted employee.</p>
+
+<p align="justify">Employers are more likely to hire an experienced touch typist than a hunt and peck typist, simply for efficiency. Do yourself a favor and learn the basics, if you don't already know them. You'll be surprised what a difference it makes. Test your typing speed in WPM here. After passing a test you will get a typing certificate that you may put in your resume.
+You will be able to finish your typing work faster no matter you are a student, at work or at home working as a freelancer writer.
+        </p>
+      </div>
+    </div>
+    </div>
+</body>
