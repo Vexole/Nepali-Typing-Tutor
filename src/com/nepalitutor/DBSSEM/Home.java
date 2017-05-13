@@ -32,9 +32,9 @@ public class Home extends JPanel implements ActionListener {
 	ImageIcon welcome = new ImageIcon("icon/welcome.png");
 	ImageIcon usericon = new ImageIcon("icon/user.jpg");
 	ImageIcon nepali = new ImageIcon("icon/nepali.png");
-	private String about = "Nepali Typing Tutor\nDesigner: Sunil Hyagumekha\nGUI Builder: Sudean Manandhar"
-			+ "\nUnicode Converter: Bhupesh Shrestha\nDocumetation: Mahesh Adhikari\nOverAll Coding: Dipesh Manandhar\n"
-			+ "Contact @ typingtutor@ku.edu.com\n+977 9849796420\n@Copyright";
+	private String about = "Nepali Typing Tutor\nDesigner: Sunil Hyaunmikha\nGUI Builder: Sudin Manandhar"
+			+ "\nUnicode Converter: Bhupesh Shrestha \n Webpage Developer: Bhupesh Shrestha \nDocumetation: Mahesh Adhikari\nOverAll Coding: Dipesh Manandhar\n"
+			+ "Contact @ typingtutor@ku.edu.com\n+977 9860039851\n@Copyright";
 
 	public Home(NepaliTypingTutor nepaliTypingTutor, Keyboard keyboard) {
 		setLayout(new GridBagLayout());
@@ -131,7 +131,7 @@ public class Home extends JPanel implements ActionListener {
 			JOptionPane.showMessageDialog(null, about);
 			break;
 		case "Help":
-			nepaliTypingTutor.tab.setSelectedIndex(2);
+			nepaliTypingTutor.tab.setSelectedIndex(3);
 			break;
 		case "Setting":
 			new Setting(new JFrame(), "Preferences", keyboard);
