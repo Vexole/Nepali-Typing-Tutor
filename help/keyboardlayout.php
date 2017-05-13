@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nepali Typing Tutor Help</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="bootstrap.min.css"/>
+		<link rel="stylesheet" href="styling.css"/>
+	</head>
+<body>
+
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="help.php">Nepali Typing Tutor</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="keyboardlayout.php" class="active">Keyboard Layout <span class="sr-only">(current)</span></a></li>
+        <li><a href="unicode.php">Unicodes</a></li>
+        <li><a href="characters.php">Characters</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<body>
+	<div class="jumbotron">
+      <div class="container">
+	<h3 class="style1"><strong>Keyboard Layouts </strong></h3>
+	<p class="style1">Two types of nepali Keyboard Layouts are available till date: Traditional and Romanized Layout. <img src="key.jpg" alt="Keyboard" width="343" height="193" align="right"></p>
+	<p class="style1"> It is essential that unicode is supported in your OS.Check <a href="unicode.php">Unicode </a>article .</p>
+
+	<h4>Traditional layout</h4>
+	<p>Traditional Layout is designed for True Type Font (TTF) like Preeti, Kantipur, etc users.</p>
+	
+	<h4>Romanized Layout</h4>
+	<p>Romanized Layout is transliteration of the Nepali using English characters. The devnagari characters are mapped according</br> to the semi-phonetic transcriptionacross keyboards layouts. For example, the A,S,D,F,G,H keys corresponds to आ,श,ध,ऊ,घ,अ respectively (English sounds).</p>
+	<p>&nbsp;</p>
+	<h3>QWERTY Keyboard Mapping</h3>
+	<h4>Traditional Layout</h4>
+	<p>Traditional Mapping in QWERTY Layout</p>
+	<p><img src="Traditional (1).png" alt="Traditional Keyboard" width="876" height="252"></p>
+	<h3>Romanized layout</h3>
+	<p>Romanized Mapping in QWERTY Layout  </p>
+	<p><img src="Romanized.png" alt="Romanized Keyboard" width="876" height="252">  </p>
+	<p>&nbsp;</p>
+</div>
+</div>
+</body>
+</html>
