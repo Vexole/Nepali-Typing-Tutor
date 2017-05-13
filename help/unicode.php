@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Unicode</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="style.css">
-        <script type="text/JavaScript">
-<!--
-
-
-
-function MM_preloadImages() { //v3.0
-  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-//-->
-</script>
-</head>
+  <head>
+    <title>Keyboard Layout</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap.min.css"/>
+    <link rel="stylesheet" href="styling.css"/>
+  </head>
 <body>
-<div align="center"><img src="360px-Unicode_logo.svg.png" alt="unicode_logo" width="266" height="197" border="2"></div>
+
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="help.php">Nepali Typing Tutor</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="keyboardlayout.php">Keyboard Layout <span class="sr-only">(current)</span></a></li>
+        <li  class="active"><a href="unicode.php">Unicodes</a></li>
+        <li><a href="characters.php">Characters</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<body>
+  <div class="jumbotron">
+      <div class="container">
+<div align="center"><img src="360px-Unicode_logo.svg.png" alt="unicode_logo" width="300" height="250" border="2"></div><br>
 <p>Unicode is a computing industry standard for the consistent encoding,representation and handling of text expressed in most of the world's writing system . Developed in conjuction with the Universal Character Set standard and published in the form as The Unicode Standard. The Standard consists of a set of code charts for visual reference, an encoding method set of standard character encodings, a set of reference data computer files, and a number of related items.</p>
 <h3>Mapping and Encodings  </h3>
 <p>Unicode defines two mapping methods: the Unicode Transformation Format (UTF) encodings, and the Universal Character Set (UCS) encodings. An encoding maps (possibly a subset of) the range of Unicode code points to sequences of values in some fixed-size range, termed code values. The numbers in the names of the encodings indicate the number of bits in one code value (for UTF encodings) or the number of bytes per code value (for UCS) encodings. UTF-8 and UTF-16 are probably the most commonly used encodings. UCS-2 is an obsolete subset of UTF-16; UCS-4 and UTF-32 are functionally equivalent.
@@ -35,3 +51,5 @@ RFC, i.e. not on the Internet Standards Track either)</li>
 </ul>
 </p>
 <p>&nbsp;</p>
+</div>
+</div>
