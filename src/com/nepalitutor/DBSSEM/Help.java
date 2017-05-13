@@ -27,7 +27,7 @@ public class Help extends JPanel implements HyperlinkListener {
 		JScrollPane editorScrollPane = new JScrollPane(editorpane);
 		editorScrollPane.setPreferredSize(Toolkit.getDefaultToolkit()
 				.getScreenSize());
-		File file = new File("help/help.php");
+		File file = new File("help/help.html");
 		try {
 			editorpane.setPage(file.toURI().toURL());
 		} catch (MalformedURLException e) {
